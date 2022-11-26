@@ -1,6 +1,7 @@
 import React from "react";
 import { FooterContainer, FooterWrapper, ContactInfoContainer, ContactInfoImg, ContactInfoLink, DeveloperInfo, DeveloperInfoLink, DeveloperInfoContainer } from "./Footer.elements";
 import { FaReact } from "react-icons/fa";
+import './animation.css'
 
 
 let ContactInfo = [
@@ -41,7 +42,7 @@ const Footer = () => {
                         <ContactInfoLink href={ContactInfo[3].link} target="_blank"><ContactInfoImg src={ContactInfo[3].iconDirectory} alt={ContactInfo[3].label}/></ContactInfoLink>
                     </ContactInfoContainer>
                     <DeveloperInfoContainer>
-                        <FaReact />
+                        <FaReact class="Atom"/>
                         <DeveloperInfo>Powered by <DeveloperInfoLink href='https://www.linkedin.com/in/juanmtamayo/' target="_blank">JMTamayo</DeveloperInfoLink>
                         </DeveloperInfo>
                     </DeveloperInfoContainer>

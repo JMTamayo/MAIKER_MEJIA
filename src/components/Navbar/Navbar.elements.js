@@ -131,7 +131,7 @@ export const NavbarUl = styled.ul`
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            transition: 0.5s all ease-in;
+            transition: 1s all ease-out;
 
         top: ${({ click}) => ( click ? 80: "-100%")};
             
