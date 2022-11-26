@@ -11,7 +11,7 @@ export const FooterContainer = styled.footer`
 
         /*Display:*/
             display: sticky;
-            position: absolute;
+            position: fixed;
             bottom: 0;
             z-index = 98;
 `;
@@ -26,9 +26,9 @@ export const FooterWrapper = styled.div`
 
     /*Display:*/
         display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
+        justify-content: space-around;
 
     /*Font:*/
         color: #000000;
@@ -103,6 +103,7 @@ export const DeveloperInfoLink = styled.a`
 
         /*Font:*/
             color: #808080;
+            transition: 0.3s all ease-out;
 
     }
 
@@ -119,13 +120,14 @@ export const ContactInfoLink = styled.a`
 export const ContactInfoImg = styled.img`
     
     /*Box Model:*/
-        width: 3rem;
+        width: 2.8rem;
         border-radius: 1rem;
 
     &:hover{
 
         /*Box Model:*/
             width: 3.2rem;
+            transition: 0.1s all ease-out;
     }
 
 `;

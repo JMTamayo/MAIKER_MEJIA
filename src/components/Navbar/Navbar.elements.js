@@ -10,7 +10,7 @@ export const NavbarContainer = styled.header`
         width: 100%;
         
     /*Display:*/
-        display: sticky;
+        position: fixed;
         top: 0;
         z-index = 99;
 `;
@@ -44,9 +44,10 @@ export const NavbarWrapper = styled.div`
 
 export const LogoContainer = styled.div`
 
-    /**/
+    /*Box Model:*/
         height: 100%;
 
+    /*Display:*/
         display: flex;
         align-items: center;
 
@@ -57,17 +58,20 @@ export const LogoImg = styled.img`
     /*Box Model:*/
         content: url('/img/logo/logo.png');
         height: 60%;
+        
 `;
 
 export const LogoH1 = styled.h1`
     
     /*Box Model:*/
-        padding-left: 0.5rem;
+        padding-left: 0.1rem;
+        margin-top: 10px;
 
     /*Font:*/
-        font-family: 'Lobster Two', cursive;
-        font-size: 2.2rem;
-        font-weight: normal;
+        font-family: 'Roboto Flex', sans-serif;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        font-weight: lighter;
         
 `;
 
@@ -99,6 +103,7 @@ export const BarsMenu = styled.div`
 
         /*Font:*/
             font-size: 2.6rem;
+            transition: 0.1s all ease-out;
         
     }
 
@@ -126,14 +131,14 @@ export const NavbarUl = styled.ul`
 
         /*Display:*/
             position: absolute;
-            top: 80px;
+            top: -100vh;
             left: 0;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             transition: 1s all ease-out;
 
-        top: ${({ click}) => ( click ? 80: "-100%")};
+        top: ${({ click}) => ( click ? "80px": "-100vh")};
             
     };
 
@@ -149,7 +154,7 @@ export const Navbarli = styled.li`
 
     /*Font:*/
         font-weight: normal;
-        font-size: 1.25rem;
+        font-size: 1.2rem;
         text-transform: uppercase;
 
     @media screen and (max-width: 960px) {
@@ -178,10 +183,6 @@ export const SectionLink = styled.a`
         justify-content: center;
 
     &:hover{
-
-        /*Box Model:*/
-            border-top: 0.4rem solid #000000;
-            border-bottom: 0.4rem solid #ffffff;
 
         /*Display:*/
             cursor: pointer;

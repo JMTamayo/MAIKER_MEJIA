@@ -42,7 +42,7 @@ const Footer = () => {
                         <ContactInfoLink href={ContactInfo[3].link} target="_blank"><ContactInfoImg src={ContactInfo[3].iconDirectory} alt={ContactInfo[3].label}/></ContactInfoLink>
                     </ContactInfoContainer>
                     <DeveloperInfoContainer>
-                        <FaReact class="Atom"/>
+                        <FaReact className="Atom"/>
                         <DeveloperInfo>Powered by <DeveloperInfoLink href='https://www.linkedin.com/in/juanmtamayo/' target="_blank">JMTamayo</DeveloperInfoLink>
                         </DeveloperInfo>
                     </DeveloperInfoContainer>
