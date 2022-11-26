@@ -19,8 +19,7 @@ export const NavbarWrapper = styled.div`
 
     /*Box Model:*/
         height: 100%;
-        width: 100%;
-        max-width: 1280px;
+        width: 90%;
         margin: auto;
 
     /*Display:*/
@@ -32,13 +31,6 @@ export const NavbarWrapper = styled.div`
     /*Font:*/
         color: #FFFFFF;
 
-    @media screen and (max-width: 1600px) {
-
-        /*Box Model:*/
-            height: 100%;
-            width: 90%;
-            
-    };
 
 `;
 
@@ -78,23 +70,10 @@ export const LogoH1 = styled.h1`
 export const BarsMenu = styled.div`
 
     /*Display:*/
-        display: none;
+        display: flex;
 
-    &:hover {
-
-        /*Display:*/
-            coursor: pointer;
-    }
-
-    @media screen and (max-width: 960px) {
-
-        /*Display:*/
-            display: flex;
-
-        /*Font:*/
-            font-size: 2.5rem;
-
-    };
+    /*Font:*/
+        font-size: 2.5rem;
 
     &:hover{
 
@@ -111,60 +90,39 @@ export const BarsMenu = styled.div`
 
 export const NavbarUl = styled.ul`
     
+    /*Background:*/
+        background-color: #8080801a;
+
     /*Box Model:*/
-        height: 100%;
+        width: 100vw;
+        height: calc(100vh - 80px - 100px);
 
     /*Display:*/
         list-style: none;
         display: flex;
-        column-gap: 1rem;
-
-    @media screen and (max-width: 960px) {
-
-        /*Background:*/
-            background-color: #000000;
-            opacity: 0.8;
-
-        /*Box Model:*/
-            width: 100vw;
-            height: calc(100vh - 80px - 100px);
-
-        /*Display:*/
-            position: absolute;
-            top: -100vh;
-            left: 0;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            transition: 1s all ease-out;
-
+        position: absolute;
+        top: -100vh;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 1s all ease-out;
         top: ${({ click}) => ( click ? "80px": "-100vh")};
-            
-    };
 
 `;
 
 export const Navbarli = styled.li`
 
     /*Box Model:*/
-        height: 100%;
-
-    /*Display:*/
-
+        width: 12rem;
+        height: 80px;
+        margin: 1rem 0;
 
     /*Font:*/
         font-weight: normal;
         font-size: 1.2rem;
         text-transform: uppercase;
-
-    @media screen and (max-width: 960px) {
-
-        /*Box Model:*/
-            width: 12rem;
-            height: 80px;
-            margin: 1rem 0;
-
-    };
+        color: #000000;
 
 `;
 
@@ -188,7 +146,7 @@ export const SectionLink = styled.a`
             cursor: pointer;
 
         /*Font:*/
-            font-weight: 600;
+            font-weight: bolder;
         
     }
 `;

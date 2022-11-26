@@ -7,10 +7,13 @@ export const MainContainer = styled.main`
 
     /*Box Model:*/
         margin: 80px 0 100px;
-        width: 100vw;
+        width: 100%;
         height: 200vh;
         
     /*Display:*/
+        display: flex;
+        align-center: center;
+        justify-content: center;
         
 `;
 

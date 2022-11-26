@@ -20,7 +20,7 @@ export const FooterWrapper = styled.div`
 
     /*Box Model:*/
         height: 100%;
-        width: 100%;
+        width: 90%;
         max-width: 1280px;
         margin: auto;
 
@@ -33,22 +33,13 @@ export const FooterWrapper = styled.div`
     /*Font:*/
         color: #000000;
 
-    @media screen and (max-width: 1600px) {
-
-        /*Box Model:*/
-            height: 100%;
-            width: 90%;
-        };
-
-    };
-
 `;
 
 export const ContactInfoContainer = styled.div`
 
     /*Box Model:*/
         width: 100%;
-        height: 60px;
+        height: fit-content;
 
     /*Display:*/
         display: flex;
@@ -126,7 +117,7 @@ export const ContactInfoImg = styled.img`
     &:hover{
 
         /*Box Model:*/
-            width: 3.2rem;
+            width: 3.0rem;
             transition: 0.1s all ease-out;
     }
 
