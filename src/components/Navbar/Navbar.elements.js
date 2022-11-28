@@ -114,7 +114,7 @@ export const Navbarli = styled.li`
 
     /*Box Model:*/
         width: 12rem;
-        height: 80px;
+        height: 3rem;
         margin: 1rem 0;
 
     /*Font:*/

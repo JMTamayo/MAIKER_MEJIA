@@ -79,6 +79,7 @@ export const DeveloperInfoLink = styled.a`
     /*Font:*/
         font-weight: bold;
         text-decoration: none;
+        color: #000000;
 
     &:visited{
 
