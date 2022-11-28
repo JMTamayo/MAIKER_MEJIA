@@ -39,6 +39,7 @@ const Main = () => {
                         </SectionTitle>
                     <LogoIcon src={LogoIconImg}/>
                 </SectionTitleContainer>
+                <iframe width="100%" height="250" src="https://www.youtube.com/embed/jNwjYVSmjx0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <GeneralMsg>
                     {PresentationText[0]}
                 </GeneralMsg>
@@ -153,7 +154,7 @@ const Main = () => {
                 <GeneralMsg>
                     {WorkCategoriesInfo.group.description[2]}
                 </GeneralMsg>
-                <iframe width="100%" height="250" src="https://www.youtube.com/embed/fk08YDqD4_E" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe width="100%" height="250" src="https://www.youtube.com/embed/fk08YDqD4_E?start=34" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <ImportantMsg>
                     {WorkCategoriesInfo.group.extra[0]}
                 </ImportantMsg>
