@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {NavbarContainer, NavbarWrapper, LogoContainer, LogoImg, LogoH1, BarsMenu, NavbarUl, Navbarli, SectionLink} from './Navbar.elements';
+import Logo from '../../img/logo/logo.png';
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
@@ -17,7 +18,7 @@ const Navbar = () => {
       <NavbarContainer>
         <NavbarWrapper>
           <LogoContainer>
-            <LogoImg />
+            <LogoImg src={Logo} alt="logo"/>
             <LogoH1>Maiker Mejía</LogoH1>
           </LogoContainer>
           <BarsMenu onClick={() => showMenu()}>

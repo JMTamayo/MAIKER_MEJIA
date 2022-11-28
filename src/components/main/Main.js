@@ -1,6 +1,16 @@
 import React from "react";
-import { MainContainer, FirstContainer, LogoImg, MiddleContainer, GeneralMsg, SectionTitleContainer, LogoIcon, SectionTitle, WorkCategoryImg, ImportantMsg, GeneralMsgUl, GeneralMsgLi, SectionLine, SectionLineContainer, LocalIcon, FullLogoImg } from "./Main.elements";
+import { MainContainer, FirstContainer, LogoImg, MiddleContainer, GeneralMsg, SectionTitleContainer, SectionTitle, WorkCategoryImg, ImportantMsg, GeneralMsgUl, GeneralMsgLi, SectionLine, SectionLineContainer, LocalIcon, FullLogo, LogoIcon} from "./Main.elements";
 import { PresentationText, WorkCategoriesInfo } from "./Main.info";
+import Logo from '../../img/logo/logo.png';
+import FullLogoImg from '../../img/logo/redwinefulllogo.png';
+import BkgImg from '../../img/photos/mobile2.jpg';
+import LogoIconImg from '../../img/logo/redwinelogo.png';
+import SoloistImg from '../../img/photos/soloist.jpg';
+import DuetImg from '../../img/photos/duet.jpg';
+import GroupImg from '../../img/photos/group.jpg';
+import SingerWomanImg from '../../img/icons/singerWoman.png';
+import SingerManImg from '../../img/icons/singerMan.png';
+import CongasImg from '../../img/icons/conga.png';
 import { FaDrum } from "react-icons/fa";
 import { CgPiano } from "react-icons/cg";
 import { GiGClef} from "react-icons/gi";
@@ -11,8 +21,8 @@ const Main = () => {
     return (
         <>
             <MainContainer id="s01">
-                <FirstContainer>
-                    <LogoImg />
+                <FirstContainer style={{backgroundImage:`url(${BkgImg})`}}>
+                    <LogoImg src={Logo}/>
                 </FirstContainer>
             </MainContainer>
             
@@ -23,11 +33,11 @@ const Main = () => {
                     <HiDotsHorizontal />
                 </SectionLineContainer>
                 <SectionTitleContainer>
-                    <LogoIcon />
+                    <LogoIcon src={LogoIconImg}/>
                         <SectionTitle>
                             Acerca de Mi
                         </SectionTitle>
-                    <LogoIcon />
+                    <LogoIcon src={LogoIconImg}/>
                 </SectionTitleContainer>
                 <GeneralMsg>
                     {PresentationText[0]}
@@ -38,7 +48,7 @@ const Main = () => {
                 <GeneralMsg>
                     {PresentationText[2]}
                 </GeneralMsg>
-                <FullLogoImg />
+                <FullLogo src={FullLogoImg} />
             </MiddleContainer>
             
             <MiddleContainer id="s03">
@@ -48,16 +58,16 @@ const Main = () => {
                     <HiDotsHorizontal />
                 </SectionLineContainer>
                 <SectionTitleContainer>
-                    <LogoIcon />
+                    <LogoIcon src={LogoIconImg}/>
                         <SectionTitle>
                             Solista
                         </SectionTitle>
-                    <LogoIcon />
+                    <LogoIcon src={LogoIconImg}/>
                 </SectionTitleContainer>
                 <GeneralMsg>
                     {WorkCategoriesInfo.soloist.description[0]}
                 </GeneralMsg>
-                <WorkCategoryImg src='/img/photos/soloist.jpg'/>
+                <WorkCategoryImg src={SoloistImg}/>
                 <GeneralMsg>
                     {WorkCategoriesInfo.soloist.description[1]}
                 </GeneralMsg>
@@ -74,16 +84,16 @@ const Main = () => {
                     <HiDotsHorizontal />
                 </SectionLineContainer>
                 <SectionTitleContainer>
-                    <LogoIcon />
+                    <LogoIcon src={LogoIconImg}/>
                         <SectionTitle>
                             Duo
                         </SectionTitle>
-                    <LogoIcon />
+                    <LogoIcon src={LogoIconImg}/>
                 </SectionTitleContainer>
                 <GeneralMsg>
                     {WorkCategoriesInfo.duet.description[0]}
                 </GeneralMsg>
-                <WorkCategoryImg src='/img/photos/duet.jpg'/>
+                <WorkCategoryImg src={DuetImg} />
                 <GeneralMsg>
                     {WorkCategoriesInfo.duet.description[1]}
                 </GeneralMsg>
@@ -100,26 +110,26 @@ const Main = () => {
                     <HiDotsHorizontal />
                 </SectionLineContainer>
                 <SectionTitleContainer>
-                    <LogoIcon />
+                    <LogoIcon src={LogoIconImg}/>
                         <SectionTitle>
                             Grupo Musical
                         </SectionTitle>
-                    <LogoIcon />
+                    <LogoIcon src={LogoIconImg}/>
                 </SectionTitleContainer>
                 <GeneralMsg>
                     {WorkCategoriesInfo.group.description[0]}
                 </GeneralMsg>
-                <WorkCategoryImg src='/img/photos/group.jpg'/>
+                <WorkCategoryImg src={GroupImg} />
                 <GeneralMsg>
                     {WorkCategoriesInfo.group.description[1]}
                 </GeneralMsg>
                 <GeneralMsgUl>
-                        <GeneralMsgLi><LocalIcon src='/img/icons/singerWoman.png' alt=''/>
+                        <GeneralMsgLi><LocalIcon src={SingerWomanImg} alt=''/>
                             <GeneralMsg>
                                 {WorkCategoriesInfo.group.detail[0]}
                             </GeneralMsg>
                         </GeneralMsgLi>
-                        <GeneralMsgLi><LocalIcon src='/img/icons/singerMan.png' alt=''/>
+                        <GeneralMsgLi><LocalIcon src={SingerManImg} alt=''/>
                             <GeneralMsg>
                                 {WorkCategoriesInfo.group.detail[1]}
                             </GeneralMsg>
@@ -134,7 +144,7 @@ const Main = () => {
                                 {WorkCategoriesInfo.group.detail[3]}
                             </GeneralMsg>
                         </GeneralMsgLi>
-                        <GeneralMsgLi><LocalIcon src='/img/icons/conga.png' alt=''/>
+                        <GeneralMsgLi><LocalIcon src={CongasImg} alt=''/>
                             <GeneralMsg>
                                 {WorkCategoriesInfo.group.detail[4]}
                             </GeneralMsg>

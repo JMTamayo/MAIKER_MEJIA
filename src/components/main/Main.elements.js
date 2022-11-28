@@ -16,7 +16,6 @@ export const MainContainer = styled.main`
 export const FirstContainer = styled.section`
 
     /*Background:*/
-        background: url('/img/photos/mobile2.jpg');
         background-repeat: no-repeat;
         background-size: auto 100vh;
         background-position: center top;
@@ -37,15 +36,13 @@ export const FirstContainer = styled.section`
 export const LogoImg = styled.img`
     
     /*Box Model:*/
-        content: url('/img/logo/logo.png');
         height: 40px;
         
 `;
 
-export const FullLogoImg = styled.img`
+export const FullLogo = styled.img`
 
     /*Box Model:*/
-        content: url('/img/logo/redwinefulllogo.png');
         height: 140px;
         margin-top: 2rem;
 
@@ -113,10 +110,9 @@ export const SectionTitleContainer = styled.div`
 
 `;
 
-export const LogoIcon = styled.i`
+export const LogoIcon = styled.img`
     
     /*Box Model:*/
-        content: url('/img/logo/redwinelogo.png');
         height: 0.8rem;
         width: calc((129/135)*0.8rem);
         

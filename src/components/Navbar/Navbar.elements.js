@@ -48,7 +48,6 @@ export const LogoContainer = styled.div`
 export const LogoImg = styled.img`
     
     /*Box Model:*/
-        content: url('/img/logo/logo.png');
         height: 60%;
         
 `;

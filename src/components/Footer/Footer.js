@@ -1,5 +1,9 @@
 import React from "react";
 import { FooterContainer, FooterWrapper, ContactInfoContainer, ContactInfoImg, ContactInfoLink, DeveloperInfo, DeveloperInfoLink, DeveloperInfoContainer } from "./Footer.elements";
+import  Instagram  from '../../img/icons/ig.svg';
+import  Facebook  from '../../img/icons/fb.svg';
+import  Youtube  from '../../img/icons/youtube.svg';
+import  Whatsapp  from '../../img/icons/wp.svg';
 import { FaReact } from "react-icons/fa";
 import './animation.css'
 
@@ -9,17 +13,14 @@ let ContactInfo = [
     { 
         label: 'facebook',
         link: 'https://www.facebook.com/maiker.mejia.77',
-        iconDirectory: '/img/icons/fb.svg'
     },
     {
         label: 'instagram',
         link: 'https://instagram.com/maikermejiacantante?utm_medium=copy_link',
-        iconDirectory: '/img/icons/ig.svg'
     },
     {
         label: 'youtube',
         link: 'https://youtube.com/@maikermejia3849',
-        iconDirectory: '/img/icons/youtube.svg'
     },
     {
         label: 'whatsapp',
@@ -36,10 +37,10 @@ const Footer = () => {
             <FooterContainer>
                 <FooterWrapper>
                     <ContactInfoContainer>
-                        <ContactInfoLink href={ContactInfo[0].link} target="_blank"><ContactInfoImg src={ContactInfo[0].iconDirectory} alt={ContactInfo[0].label}/></ContactInfoLink> 
-                        <ContactInfoLink href={ContactInfo[1].link} target="_blank"><ContactInfoImg src={ContactInfo[1].iconDirectory} alt={ContactInfo[1].label}/></ContactInfoLink>
-                        <ContactInfoLink href={ContactInfo[2].link} target="_blank"><ContactInfoImg src={ContactInfo[2].iconDirectory} alt={ContactInfo[2].label}/></ContactInfoLink>
-                        <ContactInfoLink href={ContactInfo[3].link} target="_blank"><ContactInfoImg src={ContactInfo[3].iconDirectory} alt={ContactInfo[3].label}/></ContactInfoLink>
+                        <ContactInfoLink href={ContactInfo[0].link} target="_blank"><ContactInfoImg src={Facebook} alt={ContactInfo[0].label}/></ContactInfoLink> 
+                        <ContactInfoLink href={ContactInfo[1].link} target="_blank"><ContactInfoImg src={Instagram} alt={ContactInfo[1].label}/></ContactInfoLink>
+                        <ContactInfoLink href={ContactInfo[2].link} target="_blank"><ContactInfoImg src={Youtube} alt={ContactInfo[2].label}/></ContactInfoLink>
+                        <ContactInfoLink href={ContactInfo[3].link} target="_blank"><ContactInfoImg src={Whatsapp} alt={ContactInfo[3].label}/></ContactInfoLink>
                     </ContactInfoContainer>
                     <DeveloperInfoContainer>
                         <FaReact className="Atom"/>
