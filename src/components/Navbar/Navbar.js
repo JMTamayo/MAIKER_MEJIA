@@ -26,9 +26,11 @@ const Navbar = () => {
             }
           </BarsMenu>
           <NavbarUl click = {click}>
-            <Navbarli><SectionLink onClick={() => showMenu()}>solista</SectionLink></Navbarli>
-            <Navbarli><SectionLink onClick={() => showMenu()}>duo</SectionLink></Navbarli>
-            <Navbarli><SectionLink onClick={() => showMenu()}>agrupación</SectionLink></Navbarli>
+            <Navbarli><SectionLink href="#s01" onClick={() => showMenu()}>inicio</SectionLink></Navbarli>
+            <Navbarli><SectionLink href="#s02" onClick={() => showMenu()}>acerca de mi</SectionLink></Navbarli>
+            <Navbarli><SectionLink href="#s03" onClick={() => showMenu()}>solista</SectionLink></Navbarli>
+            <Navbarli><SectionLink href="#s04" onClick={() => showMenu()}>duo</SectionLink></Navbarli>
+            <Navbarli><SectionLink href="#s05" onClick={() => showMenu()}>grupo musical</SectionLink></Navbarli>
           </NavbarUl>
         </NavbarWrapper>
       </NavbarContainer>

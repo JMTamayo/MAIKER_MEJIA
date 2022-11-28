@@ -91,7 +91,7 @@ export const BarsMenu = styled.div`
 export const NavbarUl = styled.ul`
     
     /*Background:*/
-        background-color: #8080801a;
+        background-color: #0000004d;
 
     /*Box Model:*/
         width: 100vw;
@@ -122,7 +122,7 @@ export const Navbarli = styled.li`
         font-weight: normal;
         font-size: 1.2rem;
         text-transform: uppercase;
-        color: #000000;
+        color: #ffffff;
 
 `;
 
@@ -132,7 +132,9 @@ export const SectionLink = styled.a`
         height: 100%;
 
     /*Font:*/
-        font-weight: normal;
+        font-weight: bolder;
+        color: #ffffff;
+        text-decoration: none;
 
     /*Display:*/
         display: flex;
@@ -140,13 +142,4 @@ export const SectionLink = styled.a`
         align-items: center;
         justify-content: center;
 
-    &:hover{
-
-        /*Display:*/
-            cursor: pointer;
-
-        /*Font:*/
-            font-weight: bolder;
-        
-    }
 `;
