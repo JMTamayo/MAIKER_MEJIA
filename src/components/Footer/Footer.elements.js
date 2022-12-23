@@ -28,7 +28,8 @@ export const FooterWrapper = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        row-gap: 8px;
+        justify-content: center;
 
     /*Font:*/
         color: #000000;
