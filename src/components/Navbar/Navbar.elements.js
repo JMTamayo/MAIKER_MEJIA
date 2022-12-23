@@ -31,7 +31,6 @@ export const NavbarWrapper = styled.div`
     /*Font:*/
         color: #FFFFFF;
 
-
 `;
 
 export const LogoContainer = styled.div`
@@ -42,6 +41,7 @@ export const LogoContainer = styled.div`
     /*Display:*/
         display: flex;
         align-items: center;
+        z-index: 97;
 
 `;
 
@@ -52,24 +52,12 @@ export const LogoImg = styled.img`
         
 `;
 
-export const LogoH1 = styled.h1`
-    
-    /*Box Model:*/
-        padding-left: 0.1rem;
-        margin-top: 10px;
-
-    /*Font:*/
-        font-family: 'Roboto Flex', sans-serif;
-        text-transform: uppercase;
-        font-size: 1.4rem;
-        font-weight: lighter;
-        
-`;
-
 export const BarsMenu = styled.div`
 
     /*Display:*/
         display: flex;
+        color: #ffffff;
+        z-index: 98;
 
     /*Font:*/
         font-size: 2.5rem;
@@ -90,7 +78,7 @@ export const BarsMenu = styled.div`
 export const NavbarUl = styled.ul`
     
     /*Background:*/
-        background-color: #0000004d;
+        background-color: #000000be;
 
     /*Box Model:*/
         width: 100vw;

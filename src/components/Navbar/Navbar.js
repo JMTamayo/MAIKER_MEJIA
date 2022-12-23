@@ -19,7 +19,6 @@ const Navbar = () => {
         <NavbarWrapper>
           <LogoContainer>
             <LogoImg src={Logo} alt="logo"/>
-            <LogoH1>Maiker Mejía</LogoH1>
           </LogoContainer>
           <BarsMenu onClick={() => showMenu()}>
             {
