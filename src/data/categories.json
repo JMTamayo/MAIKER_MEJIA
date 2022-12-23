@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Solista",
+        "description": [
+            "Como solista entrego toda mi energía para generar una experiencia única en cada celebración.",
+            "Interpreto variedad de géneros musicales con el acompañamiento de pistas. Este es el formato más versátil de mi portafolio. Puedo acompañar eventos de gran magnitud hasta reuniones familiares."
+        ],
+        "detail": "",
+        "video": "https://www.youtube.com/embed/1hpe_0VPZjE"
+    },
+    {
+        "title": "Dueto",
+        "description": [
+            "En este formato cuento con varios artistas que me acompañan, incluyendo voz femenina o masculina.",
+            "Al igual que como solista, en duo interpretamos variedad de géneros musicales con el apoyo de pistas, acompañando eventos de gran magnitud hasta reuniones familiares."
+        ],
+        "detail": "",
+        "video": "https://www.youtube.com/embed/z81GO0EVGTg"
+    },
+    {
+        "title": "Grupo Musical",
+        "description": [
+            "Nuestro grupo musical varia en cantidad de integrantes de acuerdo a la necesidad y presupuesto del cliente.",
+            "La agrupación puede incluir los siguientes integrantes:",
+            "Con previa solicitud, puedo incluir la participación de saxofonista para acompañar cualquier ocasión, incluyendo pista para marcha nupcial o amenización durante la cena."
+        ],
+        "detail": [
+            "Voz Femenina",
+            "Voz Masculina",
+            "Piano",
+            "Timbal",
+            "Congas"
+        ],
+        "video": "https://www.youtube.com/embed/fk08YDqD4_E?start=34"
+    }
+
+]

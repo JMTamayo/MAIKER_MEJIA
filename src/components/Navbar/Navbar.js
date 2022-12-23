@@ -26,11 +26,12 @@ const Navbar = () => {
             }
           </BarsMenu>
           <NavbarUl click = {click}>
-            <Navbarli><SectionLink href="#s01" onClick={() => showMenu()}>inicio</SectionLink></Navbarli>
-            <Navbarli><SectionLink href="#s02" onClick={() => showMenu()}>acerca de mi</SectionLink></Navbarli>
-            <Navbarli><SectionLink href="#s03" onClick={() => showMenu()}>solista</SectionLink></Navbarli>
-            <Navbarli><SectionLink href="#s04" onClick={() => showMenu()}>duo</SectionLink></Navbarli>
-            <Navbarli><SectionLink href="#s05" onClick={() => showMenu()}>grupo musical</SectionLink></Navbarli>
+            <Navbarli><SectionLink href="#main" onClick={() => showMenu()}>inicio</SectionLink></Navbarli>
+            <Navbarli><SectionLink href="#aboutme" onClick={() => showMenu()}>acerca de mi</SectionLink></Navbarli>
+            <Navbarli><SectionLink href="#solist" onClick={() => showMenu()}>solista</SectionLink></Navbarli>
+            <Navbarli><SectionLink href="#duet" onClick={() => showMenu()}>duo</SectionLink></Navbarli>
+            <Navbarli><SectionLink href="#group" onClick={() => showMenu()}>grupo musical</SectionLink></Navbarli>
+            <Navbarli><SectionLink href="#hiring" onClick={() => showMenu()}>contrataciones</SectionLink></Navbarli>
           </NavbarUl>
         </NavbarWrapper>
       </NavbarContainer>

@@ -4,16 +4,15 @@ export const MainContainer = styled.main`
 
     /*Box Model:*/
         width: 100%;
-        
+
     /*Display:*/
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        
-`;
+`
 
-export const FirstContainer = styled.section`
+export const MainSection = styled.section`
 
     /*Background:*/
         background-repeat: no-repeat;
@@ -21,7 +20,7 @@ export const FirstContainer = styled.section`
         background-position: center top;
 
     /*Box Model:*/
-        margin-top: 80px;
+        margin-top: 80px; 
         padding: 5%;
         width: 100%;
         height: calc(100vh - 180px);
@@ -31,12 +30,12 @@ export const FirstContainer = styled.section`
         justify-content: flex-end;
         align-items: flex-end;
 
-`;
+`
 
 export const LogoImg = styled.img`
     
     /*Box Model:*/
-        height: 40px;
+        height: 1.8rem;
         
 `;
 
@@ -48,12 +47,12 @@ export const FullLogo = styled.img`
 
 `;
 
-export const MiddleContainer = styled.section`
+export const SectionContainer = styled.section`
 
     /*Box Model:*/
-        width: 100%;
         height: fit-content;
-        padding: 0 5% 0;
+        width: 100%; 
+        padding: 5%;
 
     /*Display:*/
         display: flex;
@@ -68,7 +67,7 @@ export const GeneralMsg = styled.p`
 
     /*Font:*/
         font-size: 1rem;
-        text-align: justify;
+        text-align: left;
         color: #000000;
 
 `;
@@ -100,7 +99,7 @@ export const GeneralMsgLi = styled.li`
 export const SectionTitleContainer = styled.div`
 
     /*Box Model:*/
-        margin: 0 auto;
+        margin: 0 auto 0;
         width: fit-content;
 
     /*Display:*/
@@ -124,7 +123,6 @@ export const SectionTitle = styled.h2`
         color: #92000A;
         font-size: 2rem;
         font-weight: normal;
-        text-decoration: solid underline 1px;
 
 `;
 
@@ -145,20 +143,25 @@ export const WorkCategoryImg = styled.img`
 
 `;
 
+export const HiringImg = styled.img`
+
+    /*Box Model:*/
+        width: 120px;
+
+`;
+
 export const SectionLineContainer = styled.div`
 
     /*Box Model:*/
-        margin: 50px 0;
-        width 100%;
-        height: fit-content;
+        width 90%;
+        height: 80px;
 
     /*Display:*/
         display: flex;
         align-items: center;
         justify-content: space-between;
 
-    color: #92000A;
-    opacity: 0.2;
+    color: #92000a20;
 
 `;
 
@@ -168,6 +171,7 @@ export const SectionLine = styled.hr`
         border: solid 1px;
         width: 90%;
         height: 1px;
+
 `;
 
 export const LocalIcon = styled.img`
@@ -175,5 +179,31 @@ export const LocalIcon = styled.img`
     /*Box Model:*/
         width: 1rem;
         height: 1rem;
+
+`;
+
+export const LastSection = styled.section`
+
+    /*Box Model:*/
+        margin-bottom: 100px;
+        padding: 5%;
+        width: 100%;
+        min-height: calc(100vh - 180px);
+
+    /*Display:*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 1rem;
+
+`
+
+export const FinalSectionTitle = styled.h2`
+
+    /*Font:*/
+        color: #000000;
+        font-size: 1.4rem;
+        font-weight: bold;
 
 `;
