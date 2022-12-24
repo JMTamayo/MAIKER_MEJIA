@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {NavbarContainer, NavbarWrapper, LogoContainer, LogoImg, LogoH1, BarsMenu, NavbarUl, Navbarli, SectionLink} from './Navbar.elements';
+import {NavbarContainer, NavbarWrapper, LogoContainer, LogoImg, BarsMenu, NavbarUl, Navbarli, SectionLink} from './Navbar.elements';
 import Logo from '../../img/logo/logo.png';
 import { FaBars, FaTimes } from "react-icons/fa";
 

@@ -81,6 +81,7 @@ export const NavbarUl = styled.ul`
         background-color: #000000be;
 
     /*Box Model:*/
+        padding-top: 1rem;
         width: 100vw;
         height: calc(100vh - 80px - 100px);
 
@@ -92,7 +93,7 @@ export const NavbarUl = styled.ul`
         left: 0;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         transition: 1s all ease-out;
         top: ${({ click}) => ( click ? "80px": "-100vh")};
 
@@ -102,7 +103,7 @@ export const Navbarli = styled.li`
 
     /*Box Model:*/
         width: 12rem;
-        height: 3rem;
+        height: 2rem;
         margin: 1rem 0;
 
     /*Font:*/
