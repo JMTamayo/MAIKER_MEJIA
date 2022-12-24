@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/MAIKER_MEJIA/static/css/main.c3db093b.css",
+    "main.js": "/MAIKER_MEJIA/static/js/main.97bfb38c.js",
+    "static/media/mobile2.jpg": "/MAIKER_MEJIA/static/media/mobile2.8694fe50bf55c9763c6e.jpg",
+    "static/media/group.jpg": "/MAIKER_MEJIA/static/media/group.bf0a36d09abbb896a5d3.jpg",
+    "static/media/duet.jpg": "/MAIKER_MEJIA/static/media/duet.fae785036bbb3e8e264b.jpg",
+    "static/media/soloist.jpg": "/MAIKER_MEJIA/static/media/soloist.c53bc09a6ae7513f225e.jpg",
+    "static/media/singerMan.png": "/MAIKER_MEJIA/static/media/singerMan.1fa5fae2a92fc1657e95.png",
+    "static/media/singerWoman.png": "/MAIKER_MEJIA/static/media/singerWoman.8dbdc2c6e1fbd7a31028.png",
+    "static/media/phone-call.png": "/MAIKER_MEJIA/static/media/phone-call.788adb5ad58479e1e384.png",
+    "static/media/conga.png": "/MAIKER_MEJIA/static/media/conga.28512005376eae814818.png",
+    "static/media/blacklogo.png": "/MAIKER_MEJIA/static/media/blacklogo.26805e42e67c2b97bc1a.png",
+    "static/media/redwinefulllogo.png": "/MAIKER_MEJIA/static/media/redwinefulllogo.25416cb3b906d42db9cd.png",
+    "static/media/wp.svg": "/MAIKER_MEJIA/static/media/wp.5aaad10b0eca62c4f010c9221788f978.svg",
+    "static/media/ig.svg": "/MAIKER_MEJIA/static/media/ig.2137469d467d08e6d790423d4d29774a.svg",
+    "static/media/fb.svg": "/MAIKER_MEJIA/static/media/fb.6e19fe5abceeea694f356c68faf4535b.svg",
+    "static/media/youtube.svg": "/MAIKER_MEJIA/static/media/youtube.2d580b92d9092f546b7e690ecc96f6bd.svg",
+    "index.html": "/MAIKER_MEJIA/index.html",
+    "main.c3db093b.css.map": "/MAIKER_MEJIA/static/css/main.c3db093b.css.map",
+    "main.97bfb38c.js.map": "/MAIKER_MEJIA/static/js/main.97bfb38c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3db093b.css",
+    "static/js/main.97bfb38c.js"
+  ]
+}
