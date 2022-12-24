@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MAIKER_MEJIA/static/css/main.c3db093b.css",
-    "main.js": "/MAIKER_MEJIA/static/js/main.97bfb38c.js",
-    "static/media/mobile2.jpg": "/MAIKER_MEJIA/static/media/mobile2.8694fe50bf55c9763c6e.jpg",
+    "main.js": "/MAIKER_MEJIA/static/js/main.f1554297.js",
+    "static/media/mobile.jpg": "/MAIKER_MEJIA/static/media/mobile.8694fe50bf55c9763c6e.jpg",
     "static/media/group.jpg": "/MAIKER_MEJIA/static/media/group.bf0a36d09abbb896a5d3.jpg",
     "static/media/duet.jpg": "/MAIKER_MEJIA/static/media/duet.fae785036bbb3e8e264b.jpg",
     "static/media/soloist.jpg": "/MAIKER_MEJIA/static/media/soloist.c53bc09a6ae7513f225e.jpg",
@@ -18,10 +18,10 @@
     "static/media/youtube.svg": "/MAIKER_MEJIA/static/media/youtube.2d580b92d9092f546b7e690ecc96f6bd.svg",
     "index.html": "/MAIKER_MEJIA/index.html",
     "main.c3db093b.css.map": "/MAIKER_MEJIA/static/css/main.c3db093b.css.map",
-    "main.97bfb38c.js.map": "/MAIKER_MEJIA/static/js/main.97bfb38c.js.map"
+    "main.f1554297.js.map": "/MAIKER_MEJIA/static/js/main.f1554297.js.map"
   },
   "entrypoints": [
     "static/css/main.c3db093b.css",
-    "static/js/main.97bfb38c.js"
+    "static/js/main.f1554297.js"
   ]
 }
