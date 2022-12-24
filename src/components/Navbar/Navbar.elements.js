@@ -13,6 +13,7 @@ export const NavbarContainer = styled.header`
         position: fixed;
         top: 0;
         z-index = 99;
+        box-shadow: 0rem 0.02rem 0.1rem 0.05rem #000000b9;
 `;
 
 export const NavbarWrapper = styled.div`

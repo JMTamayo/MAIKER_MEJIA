@@ -19,6 +19,7 @@ import { FaDrum } from "react-icons/fa";
 import { CgPiano } from "react-icons/cg";
 import { GiGClef} from "react-icons/gi";
 import { HiDotsHorizontal} from "react-icons/hi";
+import "./main.css"
 
 const Main = () => {
 
@@ -40,7 +41,7 @@ const Main = () => {
                     <GeneralMsg>
                         {AboutMe.description[0]}
                     </GeneralMsg>
-                    <iframe width="100%" height="250" src={AboutMe.video} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <iframe className="video" src={AboutMe.video} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     <GeneralMsg>
                         {AboutMe.description[1]}
                     </GeneralMsg>
@@ -69,7 +70,7 @@ const Main = () => {
                     <GeneralMsg>
                         {Categories[0].description[1]}
                     </GeneralMsg>
-                    <iframe width="100%" height="250px" src={Categories[0].video} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                    <iframe className="video" src={Categories[0].video} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
                 </SectionContainer>
                 <SectionLineContainer id="duet">
                     <GiGClef />
@@ -91,7 +92,7 @@ const Main = () => {
                     <GeneralMsg>
                         {Categories[1].description[1]}
                     </GeneralMsg>
-                    <iframe width="100%" height="250" src={Categories[1].video} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <iframe className="video" src={Categories[1].video} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </SectionContainer>
                 <SectionLineContainer id="group">
                     <GiGClef />
@@ -114,7 +115,8 @@ const Main = () => {
                         {Categories[2].description[1]}
                     </GeneralMsg>
                     <GeneralMsgUl>
-                            <GeneralMsgLi><LocalIcon src={SingerWomanImg} alt=""/>
+                            <GeneralMsgLi>
+                                <LocalIcon src={SingerWomanImg} alt=""/>
                                 <GeneralMsg>
                                     {Categories[2].detail[0]}
                                 </GeneralMsg>
@@ -143,7 +145,7 @@ const Main = () => {
                     <GeneralMsg>
                         {Categories[2].description[2]}
                     </GeneralMsg>
-                    <iframe width="100%" height="250" src={Categories[2].video} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <iframe className="video" src={Categories[2].video} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </SectionContainer>
                 <SectionLineContainer id="hiring">
                     <GiGClef />
@@ -169,26 +171,18 @@ const Main = () => {
                             </GeneralMsg>
                         </GeneralMsgLi>
                     </GeneralMsgUl>
+                    <HiringImg src={BlackLogo} />
                     <ImportantMsg>
                     {Hiring.important_msg}
                     </ImportantMsg>
-                    <HiringImg src={BlackLogo} />
                     <FinalSectionTitle>
                         ¡Sígueme en mis redes sociales!
                     </FinalSectionTitle>
                 </LastSection>  
             </MainContainer>
-
-            
         </>
     )
 
 }
 
 export default Main
-
-/*<SectionLineContainer>
-<GiGClef />
-<SectionLine></SectionLine>
-<HiDotsHorizontal />
-</SectionLineContainer>*/
