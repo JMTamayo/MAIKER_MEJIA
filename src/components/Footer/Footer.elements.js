@@ -34,6 +34,13 @@ export const FooterWrapper = styled.div`
     /*Font:*/
         color: #000000;
 
+    @media (min-width: 1200px) {
+
+        /*Box Model:*/
+            max-width: 1280px;
+
+    }
+
 `;
 
 export const ContactInfoContainer = styled.div`

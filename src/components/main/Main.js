@@ -6,7 +6,7 @@ import Hiring from "../../data/hiring.json";
 import Logo from "../../img/logo/logo.png";
 import BlackLogo from "../../img/logo/blacklogo.png";
 import FullLogoImg from "../../img/logo/redwinefulllogo.png";
-import BkgImg from "../../img/photos/mobile2.jpg";
+import BkgImg from "../../img/photos/mobile.jpg";
 import LogoIconImg from "../../img/logo/redwinelogo.png";
 import SoloistImg from "../../img/photos/soloist.jpg";
 import GroupImg from "../../img/photos/duet.jpg";

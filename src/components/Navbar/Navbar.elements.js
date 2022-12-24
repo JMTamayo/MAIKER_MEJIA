@@ -31,6 +31,13 @@ export const NavbarWrapper = styled.div`
     /*Font:*/
         color: #FFFFFF;
 
+    @media (min-width: 1200px) {
+
+        /*Box Model:*/
+            max-width: 1280px;
+
+    }
+
 `;
 
 export const LogoContainer = styled.div`
@@ -73,6 +80,13 @@ export const BarsMenu = styled.div`
         
     }
 
+    @media (min-width: 1200px) {
+
+        /*Box Model:*/
+            display: none;
+
+    }
+
 `;
 
 export const NavbarUl = styled.ul`
@@ -97,6 +111,23 @@ export const NavbarUl = styled.ul`
         transition: 1s all ease-out;
         top: ${({ click}) => ( click ? "80px": "-100vh")};
 
+    @media (min-width: 1200px) {
+
+        /*Background:*/
+            background-color: #000000;
+
+        /*Box Model:*/
+            padding: 0;
+            height: 80%;
+            width: fit-content;
+
+        /*Display:*/
+            position: relative;
+            top: 0;
+            flex-direction: row;
+            transition: none;
+    }
+
 `;
 
 export const Navbarli = styled.li`
@@ -112,12 +143,22 @@ export const Navbarli = styled.li`
         text-transform: uppercase;
         color: #ffffff;
 
+        @media (min-width: 1200px) {
+
+            /*Box Model:*/
+                margin: 0;
+                height: 100%;
+                width: fit-content;
+
+        }
+
 `;
 
 export const SectionLink = styled.a`
 
     /*Box Model:*/
         height: 100%;
+        padding: 0 1rem;
 
     /*Font:*/
         font-weight: bolder;
@@ -129,5 +170,27 @@ export const SectionLink = styled.a`
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+    @media (min-width: 1200px) {
+
+        /*Font:*/
+            font-weight: normal;
+
+        &:hover {
+
+            /*Box Model:*/
+                border-bottom: solid 0.2rem #ffffff;
+
+            /*Font:*/
+                font-weight: bold;
+        }
+
+        &:active {
+
+            /*Font:*/
+                color: #808080;
+        }
+
+    }
 
 `;
